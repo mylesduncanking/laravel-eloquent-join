@@ -2,6 +2,9 @@
 
 This package introduces the join capability for sorting and filtering on eloquent relations.
 
+##Please use the original package of this. We have forked this and tweaked it to work specifically with a system.
+##Which does break on all normal installations of Laravel.
+
 ## Eloquent Problems
 
 You can't perform sorting on the relationship field without manually joining related table which is very awkward. Let me give you a few reasons why. If you have a table with posts and related categories your code might look like this:
