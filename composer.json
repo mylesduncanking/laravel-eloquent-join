@@ -1,5 +1,5 @@
 {
-    "name": "fico7489/laravel-eloquent-join",
+    "name": "southcoastweb/laravel-eloquent-join",
     "description": "This package introduces the join capability for sorting and filtering on eloquent relations.",
     "keywords": [
         "laravel eloquent join",
@@ -10,11 +10,6 @@
         "laravel join relations",
         "laravel"
     ],
-    "homepage": "https://github.com/fico7489/laravel-eloquent-join",
-    "support": {
-        "issues": "https://github.com/fico7489/laravel-eloquent-join/issues",
-        "source": "https://github.com/fico7489/laravel-eloquent-join"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -33,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Fico7489\\Laravel\\EloquentJoin\\": "src"
+            "Southcoastweb\\Laravel\\EloquentJoin\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fico7489\\Laravel\\EloquentJoin\\Tests\\": "tests/"
+            "Southcoastweb\\Laravel\\EloquentJoin\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",
