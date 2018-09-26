@@ -1,6 +1,6 @@
 <?php
 
-namespace Fico7489\Laravel\EloquentJoin\Traits;
+namespace Southcoastweb\Laravel\EloquentJoin\Traits;
 
 trait JoinRelationTrait
 {

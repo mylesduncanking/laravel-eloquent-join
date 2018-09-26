@@ -1,14 +1,14 @@
 <?php
 
-namespace Fico7489\Laravel\EloquentJoin;
+namespace Southcoastweb\Laravel\EloquentJoin;
 
-use Fico7489\Laravel\EloquentJoin\Exceptions\InvalidRelation;
-use Fico7489\Laravel\EloquentJoin\Exceptions\InvalidRelationClause;
-use Fico7489\Laravel\EloquentJoin\Exceptions\InvalidRelationGlobalScope;
-use Fico7489\Laravel\EloquentJoin\Exceptions\InvalidRelationWhere;
+use Southcoastweb\Laravel\EloquentJoin\Exceptions\InvalidRelation;
+use Southcoastweb\Laravel\EloquentJoin\Exceptions\InvalidRelationClause;
+use Southcoastweb\Laravel\EloquentJoin\Exceptions\InvalidRelationGlobalScope;
+use Southcoastweb\Laravel\EloquentJoin\Exceptions\InvalidRelationWhere;
 use Illuminate\Database\Eloquent\Builder;
-use Fico7489\Laravel\EloquentJoin\Relations\BelongsToJoin;
-use Fico7489\Laravel\EloquentJoin\Relations\HasOneJoin;
+use Southcoastweb\Laravel\EloquentJoin\Relations\BelongsToJoin;
+use Southcoastweb\Laravel\EloquentJoin\Relations\HasOneJoin;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
